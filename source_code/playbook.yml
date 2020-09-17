@@ -2,3 +2,5 @@
  tasks:
    - name: testing yaml file
      file: name=sample state=touch
+   - name: install nginx
+     apt: name=nginx state=latest
