@@ -1,0 +1,4 @@
+---
+ tasks:
+   - name: testing yaml file
+     file: name=sample state=touch
